@@ -12,7 +12,7 @@ by Pacman agents (in searchAgents.py).
 """
 
 import util
-
+from util import heappush, heappop
 class SearchProblem:
     """
     This class outlines the structure of a search problem, but doesn't implement
