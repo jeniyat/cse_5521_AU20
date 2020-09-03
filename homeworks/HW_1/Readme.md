@@ -3,14 +3,19 @@
 Download or clone this repository. This code, and the idea for the assignment, comes from [UC Berkeley](https://inst.eecs.berkeley.edu//~cs188/pacman/home.html).
 
 * Open up the Windows Command Line or Mac Terminal or Linux Terminal.
-* Change your directory to the folder with the pacman code. You should see a file called commands.txt and two folders: layouts and py.
-* Run some of these commands (as listed in commands.txt) to make sure your setup works. Below are some examples:
+
+* Change your directory to the folder with the pacman code. You should see a file called `commands.txt` and two folders: `layouts` and `py`.
+
+* Run some of these commands (as listed in `commands.txt`) to make sure your setup works. Below are some examples:
+
 ```
 python py/pacman.py
 ```
+
 ```
 python py/pacman.py --layout tinyMaze --pacman GoWestAgent
 ```
+
 * Make sure you can execute pacman. See what happens when you run this command:
 
 ```
@@ -19,7 +24,7 @@ python py/pacman.py --layout tinyMaze --pacman GoWestAgent
 
 ## Task 1 (3 pts)
 
-Open the file py/search.py and find the function [depthFirstSearch](./py/search.py#L70) which reads:
+Open the file `py/search.py` and find the function [depthFirstSearch](./py/search.py#L70) which reads:
 
 
 ```
