@@ -94,9 +94,9 @@ python py/pacman.py -l mediumMaze -p SearchAgent -a fn=astar,heuristic=manhattan
 
 ```
 
-## Submission requirements
+## Submission
 
-* SubmitonefiletoCarmen:search.py
+* Submit one file to Carmen: `search.py`
 * Expected time commitment: 4-8 hrs
 * Due: Friday, Sept. 21, 11:59pm
 
