@@ -129,19 +129,19 @@ Keep these things in mind while working on your solutions!
 #### Supporting files you can ignore (unless you're curious):
 
 
-* `py/pacman.py`: The main file that runs Pacman games. This file describes a Pacman GameState type, which you use in this project.
-* `py/game.py`: The logic behind how the Pacman world works. This file describes several supporting types like AgentState, Agent, Direction, and Grid.
+* `py/pacman.py`: The main file that runs Pacman games. This file describes a `Pacman` `GameState` type, which you use in this project.
+* `py/game.py`: The logic behind how the Pacman world works. This file describes several supporting types like `AgentState`, `Agent`, `Direction`, and `Grid`.
 * `py/graphicsDisplay.py`: Graphics for Pacman
 * `py/graphicsUtils.py`: Support for Pacman graphics
 * `py/textDisplay.py`: ASCII graphics for Pacman
-* `py/ghostAgents.py`: Agents to control ghosts
+* `py/ghostAgents.py`: Agents to control Ghosts
 * `py/keyboardAgents.py`: Keyboard interfaces to control Pacman
 * `py/layout.py`: Code for reading layout files and storing their contents
 * `py/autograder.py`: Project autograder
 * `py/testParser.py`: Parses autograder test and solution files
 * `py/testClasses.py`: General autograding test classes
 * `py/test_cases/`: Directory containing the test cases for each question
-* `py/searchTestClasses.py`: Homework 1 specific autograding test classes
+* `py/searchTestClasses.py`: Testcases to support autograding
 
 
 
