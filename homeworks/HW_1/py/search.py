@@ -71,35 +71,21 @@ def depthFirstSearch(problem):
     """
     Search the deepest nodes in the search tree first [p 85].
     Your search algorithm needs to return a list of actions that reaches
-    the goal. Make sure to implement a graph search algorithm [Fig. 3.7].
+    the goal. Make sure that you implement the graph search version of DFS,
+    which avoids expanding any already visited states. 
+    Otherwise your implementation may run infinitely!
     To get started, you might want to try some of these simple commands to
     understand the search problem that is being passed in:
     print("Start:", problem.getStartState())
     print("Is the start a goal?", problem.isGoalState(problem.getStartState()))
     print("Start's successors:", problem.getSuccessors(problem.getStartState()))
     """
-    util.raiseNotDefined()
-    # closedset = []
-    # openset = [problem.getStartState()] # openset starts with starting state
-    # parents = {}
+    """
+    YOUR CODE HERE
+    """
 
-    # while len(openset) > 0:
-    #   state = openset.pop() # get most-recently-added element from openset
-    #   # ...
-    #   if # ...
-    #     print("Found goal!")
-    #     # retrieve series of steps that brought us here (use the parents map)
-    #     actions = []
-    #     while state != problem.getStartState():
-    #       # ...
-    #     print(actions) # just to see the resulting actions
-    #     return actions
-    #   else:
-    #     for (next_state, action, cost) in problem.getSuccessors(state):
-    #       # next_state is something like (4, 2) (coordinates)
-    #       # action is something like WEST
-    #       # cost is not used for depth-first search
-    #       # ...
+    util.raiseNotDefined()
+    
 
 def breadthFirstSearch(problem):
     """
