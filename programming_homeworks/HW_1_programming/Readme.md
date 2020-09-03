@@ -22,7 +22,7 @@ python py/pacman.py --layout tinyMaze --pacman GoWestAgent
 python py/pacman.py --layout tinyMaze --pacman GoWestAgent
 ```
 
-## Task 1 (3 pts)
+## Task 1 (9 pts)
 
 Open the file `py/search.py` and find the function [`depthFirstSearch`](./py/search.py#L70). 
 
@@ -34,7 +34,7 @@ You can test it with pacman by running the following command:
 python py/pacman.py -l mediumMaze -p SearchAgent -a fn=dfs
 ```
 
-## Task 2 (2 pts)
+## Task 2 (8 pts)
 
 Open the file `py/search.py` and and find the function [`breadthFirstSearch`](./py/search.py#L90). 
 
@@ -49,7 +49,7 @@ python py/pacman.py -l mediumMaze -p SearchAgent -a fn=bfs
 (Note that this should be simple if you've completed Task 1.)
 
 
-## Task 3 (3 pts)
+## Task 3 (8 pts)
 
 Open the file `py/search.py` and find the function  [`uniformCostSearch`](./py/search.py#L96). 
 
@@ -81,7 +81,7 @@ print(best)
 ```
 
 
-## Task 4 (2 pts)
+## Task 4 (10 pts)
 
 Open the file `py/search.py` and find the function  [`aStarSearch`](./py/search.py#L109). 
 
