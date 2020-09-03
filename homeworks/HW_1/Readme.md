@@ -24,7 +24,7 @@ python py/pacman.py --layout tinyMaze --pacman GoWestAgent
 
 ## Task 1 (3 pts)
 
-Open the file `py/search.py` and find the function [depthFirstSearch](./py/search.py#L70) which reads:
+Open the file `py/search.py` and find the function [`depthFirstSearch`](./py/search.py#L70) which reads:
 
 
 ```
