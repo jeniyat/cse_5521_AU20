@@ -16,7 +16,7 @@ python py/pacman.py
 python py/pacman.py --layout tinyMaze --pacman GoWestAgent
 ```
 
-* Make sure you can execute pacman. See what happens when you run this command:
+* Make sure you can execute pacman. See what happens when you run the following command:
 
 ```
 python py/pacman.py --layout tinyMaze --pacman GoWestAgent
@@ -24,62 +24,46 @@ python py/pacman.py --layout tinyMaze --pacman GoWestAgent
 
 ## Task 1 (3 pts)
 
-Open the file `py/search.py` and find the function [`depthFirstSearch`](./py/search.py#L70) which reads:
+Open the file `py/search.py` and find the function [`depthFirstSearch`](./py/search.py#L70). 
 
+Take the provided template and finish the code so that depth-first search works. 
 
-```
-def depthFirstSearch(problem):
-    """
-    Search the deepest nodes in the search tree first [p 85].
-    Your search algorithm needs to return a list of actions that reaches
-    the goal. Make sure that you implement the graph search version of DFS,
-    which avoids expanding any already visited states. 
-    Otherwise your implementation may run infinitely!
-    To get started, you might want to try some of these simple commands to
-    understand the search problem that is being passed in:
-    print("Start:", problem.getStartState())
-    print("Is the start a goal?", problem.isGoalState(problem.getStartState()))
-    print("Start's successors:", problem.getSuccessors(problem.getStartState()))
-    """
-    """
-    YOUR CODE HERE
-    """
+You can test it with pacman by running the following command: 
 
-    util.raiseNotDefined()
-    
-```
-
-  
-Take this template and finish the code so that depth-first search works. You can test it with pacman by running this command:
 ```
 python py/pacman.py -l mediumMaze -p SearchAgent -a fn=dfs
 ```
 
 ## Task 2 (2 pts)
 
-Implement breadth-first search for pacman, in the breadthFirstSearch function. Test with:
+Open the file `py/search.py` and and find the function [`breadthFirstSearch`](./py/search.py#L90). 
+
+Take the template and finish the BFS alorithm.  
+
+You can test it with pacman by running the following command: 
+
 ```
 python py/pacman.py -l mediumMaze -p SearchAgent -a fn=bfs
 ```
 
-(Note that this should be simple if you've completed task 1....)
+(Note that this should be simple if you've completed Task 1.)
 
 
 ## Task 3 (3 pts)
-Open the file py/search.py and find the function uniformCostSearch which reads:
-```
-def uniformCostSearch(problem):
-    """
-    YOUR CODE HERE
-    """
-    util.raiseNotDefined()
-```
 
+Open the file `py/search.py` and find the function  [`uniformCostSearch`](./py/search.py#L96). 
 
-Take the template and finish the code so that UCS works. (You might want to adapt your implementation of DFS or BFS.) Test your code with:
+Take the template and finish the code so that UCS works. 
+
+You can test it with pacman by running the following command: 
+
 ```
 python py/pacman.py -l mediumMaze -p SearchAgent -a fn=ucs 
 ```
+
+(Note that adapting your implementation of DFS or BFS maybe useful for UCS.)
+
+
 
 ### Useful Python code
 
@@ -99,9 +83,12 @@ print(best)
 
 ## Task 4 (2 pts)
 
+Open the file `py/search.py` and find the function  [`aStarSearch`](./py/search.py#L109). 
+
 Finish the implementation of A* search. You can use the argument heuristic as a function: `dist = heuristic(state, problem)`
 
-You can test it with pacman by running this command:
+You can test it with pacman by running the following command: 
+
 ```
 python py/pacman.py -l mediumMaze -p SearchAgent -a fn=astar,heuristic=manhattanHeuristic
 
@@ -114,7 +101,7 @@ python py/pacman.py -l mediumMaze -p SearchAgent -a fn=astar,heuristic=manhattan
 * Due: Friday, Sept. 21, 11:59pm
 
 
-## Evaluation
+### Evaluation
 
 Your code will be autograded for technical correctness. Please do not change the names of any provided functions or classes within the code, or you will wreak havoc on the autograder. However, the correctness of your implementation -- not the autograder's judgements -- will be the final judge of your score. 
 
@@ -122,7 +109,7 @@ Your code will be autograded for technical correctness. Please do not change the
 * Helpful Reading: [Path Finding Algorithms](https://medium.com/omarelgabrys-blog/path-finding-algorithms-f65a8902eb40),  [BFS and DFS](https://eddmann.com/posts/depth-first-search-and-breadth-first-search-in-python/)
 
 
-## Important Tips
+### Important Tips
 
 Keep these things in mind while working on your solutions!
 * All of your search functions need to return a list of actions that will lead the agent from the start to the goal. These actions all have to be legal moves (valid directions, no moving through walls).
@@ -132,29 +119,29 @@ Keep these things in mind while working on your solutions!
 * The autograder is not the final word! It is very possible to correctly implement these algorithms, but have the autograder consider it wrong because you didn't use the right data structures or methods. Final grades will be assigned by examining your implementation, not just using the autograder output.
 
 
-###  Files you'll edit and submit :
-* py/search.py: Where your search algorithms will reside.
+####  Files you'll edit and submit :
+* `py/search.py`: Where your search algorithms will reside.
 
-### Files you'll want to take a look at:
-* py/searchAgents.py: Where all search-based agents are defined.
-* py/util.py: Useful data structures you'll need for defining search algorithms.
+#### Files you'll want to take a look at:
+* `py/searchAgents.`: Where all search-based agents are defined.
+* `py/util.py`: Useful data structures you'll need for defining search algorithms.
 
-### Supporting files you can ignore (unless you're curious):
+#### Supporting files you can ignore (unless you're curious):
 
 
-* py/pacman.py: The main file that runs Pacman games. This file describes a Pacman GameState type, which you use in this project.
-* py/game.py: The logic behind how the Pacman world works. This file describes several supporting types like AgentState, Agent, Direction, and Grid.
-* py/graphicsDisplay.py: Graphics for Pacman
-* py/graphicsUtils.py: Support for Pacman graphics
-* py/textDisplay.py: ASCII graphics for Pacman
-* py/ghostAgents.py: Agents to control ghosts
-* py/keyboardAgents.py: Keyboard interfaces to control Pacman
-* py/layout.py: Code for reading layout files and storing their contents
-* py/autograder.py: Project autograder
-* py/testParser.py: Parses autograder test and solution files
-* py/testClasses.py: General autograding test classes
-* py/test_cases/:Directory containing the test cases for each question
-* py/searchTestClasses.py: Homework 1 specific autograding test classes
+* `py/pacman.py`: The main file that runs Pacman games. This file describes a Pacman GameState type, which you use in this project.
+* `py/game.py`: The logic behind how the Pacman world works. This file describes several supporting types like AgentState, Agent, Direction, and Grid.
+* `py/graphicsDisplay.py`: Graphics for Pacman
+* `py/graphicsUtils.py`: Support for Pacman graphics
+* `py/textDisplay.py`: ASCII graphics for Pacman
+* `py/ghostAgents.py`: Agents to control ghosts
+* `py/keyboardAgents.py`: Keyboard interfaces to control Pacman
+* `py/layout.py`: Code for reading layout files and storing their contents
+* `py/autograder.py`: Project autograder
+* `py/testParser.py`: Parses autograder test and solution files
+* `py/testClasses.py`: General autograding test classes
+* `py/test_cases/`: Directory containing the test cases for each question
+* `py/searchTestClasses.py`: Homework 1 specific autograding test classes
 
 
 
