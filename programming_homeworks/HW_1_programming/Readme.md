@@ -4,7 +4,7 @@ Download or clone this repository. This code, and the idea for the assignment, c
 
 * Open up the Windows Command Line or Mac Terminal or Linux Terminal.
 
-* Change your directory to the folder with the pacman code. You should see a file called `commands.txt` and two folders: `layouts` and `py`.
+* Change your directory to the folder with the pacman code. You should see a file called `commands.txt` and three folders: `py`, `layouts` and `test_cases` .
 
 * Run some of these commands (as listed in `commands.txt`) to make sure your setup works. Below are some examples:
 
