@@ -13,7 +13,7 @@ python3 py/pacman.py
 ```
 
 ```
-python py/pacman.py --layout tinyMaze --pacman GoWestAgent
+python3 py/pacman.py --layout tinyMaze --pacman GoWestAgent
 ```
 
 * Make sure you can execute pacman. See what happens when you run the following command:
