@@ -9,7 +9,7 @@ Download or clone this repository. This code, and the idea for the assignment, c
 * Run some of these commands (as listed in `commands.txt`) to make sure your setup works. Below are some examples:
 
 ```
-python py/pacman.py
+python3 py/pacman.py
 ```
 
 ```
@@ -19,7 +19,7 @@ python py/pacman.py --layout tinyMaze --pacman GoWestAgent
 * Make sure you can execute pacman. See what happens when you run the following command:
 
 ```
-python py/pacman.py --layout tinyMaze --pacman GoWestAgent
+python3 py/pacman.py --layout tinyMaze --pacman GoWestAgent
 ```
 
 ## Task 1 (9 pts)
@@ -31,7 +31,7 @@ Take the provided template and finish the code so that depth-first search works.
 You can test it with pacman by running the following command: 
 
 ```
-python py/pacman.py -l mediumMaze -p SearchAgent -a fn=dfs
+python3 py/pacman.py -l mediumMaze -p SearchAgent -a fn=dfs
 ```
 
 ## Task 2 (8 pts)
@@ -43,7 +43,7 @@ Take the template and finish the BFS alorithm.
 You can test it with pacman by running the following command: 
 
 ```
-python py/pacman.py -l mediumMaze -p SearchAgent -a fn=bfs
+python3 py/pacman.py -l mediumMaze -p SearchAgent -a fn=bfs
 ```
 
 (Note that this should be simple if you've completed Task 1.)
@@ -58,7 +58,7 @@ Take the template and finish the code so that UCS works.
 You can test it with pacman by running the following command: 
 
 ```
-python py/pacman.py -l mediumMaze -p SearchAgent -a fn=ucs 
+python3 py/pacman.py -l mediumMaze -p SearchAgent -a fn=ucs 
 ```
 
 (Note that adapting your implementation of DFS or BFS maybe useful for UCS.)
@@ -90,7 +90,7 @@ Finish the implementation of A* search. You can use the argument heuristic as a 
 You can test it with pacman by running the following command: 
 
 ```
-python py/pacman.py -l mediumMaze -p SearchAgent -a fn=astar,heuristic=manhattanHeuristic
+python3 py/pacman.py -l mediumMaze -p SearchAgent -a fn=astar,heuristic=manhattanHeuristic
 
 ```
 
