@@ -69,7 +69,7 @@ def tinyMazeSearch(problem):
 
 def depthFirstSearch(problem):
     """
-    Search the deepest nodes in the search tree first [p 85].
+    Search the deepest nodes in the search tree first.
     Your search algorithm needs to return a list of actions that reaches
     the goal. Make sure that you implement the graph search version of DFS,
     which avoids expanding any already visited states. 
