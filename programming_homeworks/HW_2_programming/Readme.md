@@ -92,6 +92,8 @@ You have two parts to implement in `DR.py`:
 
 * Apply the learned patterns: After obtaining the mean vector `mu` and the projection matrix (numpy array) `W`, you are to apply them to your data `X`. You are to implement your code between `### Your job 2 starts here ###` and `### Your job 2 ends here ###`. Again, you are free to create more space between those two lines. You can assume that `X`, `mu`, and `W` are already defined, and your goal is to create the matrix (numpy array) `new_X`, which is out_dim-by-N (out_dim and N are both already defined). Each column (data instance) of `new_X` corresponds to the same column in `X`.
 
+* Uesful Link: [PCA in python](https://machinelearningmastery.com/calculate-principal-component-analysis-scratch-python/)
+
 ## Auto grader:
 
 * You may run the following command to test your implementation<br/>
