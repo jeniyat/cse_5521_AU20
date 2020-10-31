@@ -50,6 +50,23 @@ The directory structure of the [data](./NaiveBayes/data-sentiment/) folder is gi
 		    └── Positive.txt
 ```
 
+
+* The [train](./NaiveBayes/data-sentiment/train/) sub-folder contains the data for training your Naive Bayes model. 
+	* There are 3098 total sentences in the train data. 
+	* [Negative.txt](./NaiveBayes/data-sentiment/train/Negative.txt) file cotnains 893 tweets with Negative Sentiment
+	* [Neutral.txt](./NaiveBayes/data-sentiment/train/Neutral.txt) file cotnains 1256 tweets with Neutral Sentiment
+	* [Positive.txt](./NaiveBayes/data-sentiment/train/Positive.txt) file cotnains 949 tweets with Positive Sentiment
+
+
+* The [test](./NaiveBayes/data-sentiment/test/) sub-folder contains the data for that we will used to test the performance of your Naive Bayes model. 
+	* There are 775 total sentences in the test data. 
+	* [Negative.txt](./NaiveBayes/data-sentiment/test/Negative.txt) file cotnains 224 tweets with Negative Sentiment
+	* [Neutral.txt](./NaiveBayes/data-sentiment/test/Neutral.txt) file cotnains 314 tweets with Neutral Sentiment
+	* [Positive.txt](./NaiveBayes/data-sentiment/test/Positive.txt) file cotnains 237 tweets with Positive Sentiment
+
+
+
+
 # NaiveBayes Classification (50 pts)
 
 * You will implement NaiveBayes in this question. You are to amend your implementation into [`NaiveBayes.py`](./NaiveBayes/NaiveBayes.py).
