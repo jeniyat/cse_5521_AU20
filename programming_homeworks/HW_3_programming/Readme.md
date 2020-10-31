@@ -47,9 +47,9 @@ In this homework, you are to implement NaiveBayes and HMM algorithm for tweet cl
 
 * You will implement NaiveBayes in this question. You are to amend your implementation into (`NaiveBayes.py`)[(./NaiveBayes/NaiveBayes.py)].
 
-* There are many sub-functions in  [`NaiveBayes.py`](./NaiveBayes/NaiveBayes.py). You can ignore all of them but [`def train(self, training_set, training_labels, alpha=1)`](https://github.com/jeniyat/cse_5521_AU20/blob/master/programming_homeworks/HW_3_programming/NaiveBayes/NaiveBayes.py#L104) and [`def predict(self, test_doc)`](https://github.com/jeniyat/cse_5521_AU20/blob/master/programming_homeworks/HW_3_programming/NaiveBayes/NaiveBayes.py#L128). You need to extract the correspondig log probablities to complete this implementaion.
+* There are many sub-functions in  [`NaiveBayes.py`](./NaiveBayes/NaiveBayes.py). You can ignore all of them but [`def train(self, training_set, training_labels, alpha=1)`](./NaiveBayes/NaiveBayes.py#L104) and [`def predict(self, test_doc)`](./NaiveBayes/NaiveBayes.py#L128). You need to extract the correspondig log probablities to complete this implementaion.
 
-* Debugging Tips: print the variable [`sums`](https://github.com/jeniyat/cse_5521_AU20/blob/master/programming_homeworks/HW_3_programming/NaiveBayes/NaiveBayes.py#L129) and check if it is returning the expected values.
+* Debugging Tips: print the variable [`sums`](./NaiveBayes/NaiveBayes.py#L129) and check if it is returning the expected values.
   
 
 ## Auto grader:
@@ -63,7 +63,7 @@ In this homework, you are to implement NaiveBayes and HMM algorithm for tweet cl
 
 ## Bonus: (10 pts)
 
-Improve the results on test set with different alpha value in [`def train(self, training_set, training_labels, alpha=1)`](https://github.com/jeniyat/cse_5521_AU20/blob/master/programming_homeworks/HW_3_programming/NaiveBayes/NaiveBayes.py#L104) and report the best alpha at `report.txt`.
+Improve the results on test set with different alpha value in [`def train(self, training_set, training_labels, alpha=1)`](./NaiveBayes/NaiveBayes.py#L104) and report the best alpha at `report.txt`.
 
 
 
@@ -71,7 +71,7 @@ Improve the results on test set with different alpha value in [`def train(self, 
 
  You will implement hidden markov model in this question. You are to amend your implementation into `hmm.py`.
 
-* There are many classe and sub-functions in [`hmm.py`](./HMM/hmm.py). You can ignore all of them but [`def get_transition(self, prevNodes, curNodes)`](https://github.com/jeniyat/cse_5521_AU20/blob/master/programming_homeworks/HW_3_programming/HMM/hmm.py#L81). You need to extract the correspondig transition and emmision probablities to complete this implementaion.
+* There are many classe and sub-functions in [`hmm.py`](./HMM/hmm.py). You can ignore all of them but [`def get_transition(self, prevNodes, curNodes)`](./HMM/hmm.py#L81). You need to extract the correspondig transition and emmision probablities to complete this implementaion.
   
 
 ## Auto grader:
@@ -83,7 +83,7 @@ Improve the results on test set with different alpha value in [`def train(self, 
 
 * Again, the auto_grader is just to simply check your implementation. It may not be used for your final grading.
 
-* Debugging Tips: print the probability values while updating [`best_prev`](https://github.com/jeniyat/cse_5521_AU20/blob/master/programming_homeworks/HW_3_programming/HMM/hmm.py#L101) variable and check it is assigned with the the highest probability ones.
+* Debugging Tips: print the probability values while updating [`best_prev`](./HMM/hmm.py#L101) variable and check it is assigned with the the highest probability ones.
 
 
 # What to submit:
