@@ -78,9 +78,12 @@ Improve the results on test set with different alpha value in [`def train(self, 
 
 * You may run the following command to test your implementation<br/>
 `python3 hmm.py`<br/>
-Note that, the auto grader is to check your implementation semantics. If you have syntax errors, you may get python error messages before you can see the auto_graders' results.
+
+* Note that, the auto grader is to check your implementation semantics. If you have syntax errors, you may get python error messages before you can see the auto_graders' results.
 
 * Again, the auto_grader is just to simply check your implementation. It may not be used for your final grading.
+
+* * Debugging Tips: print the probability values while updating (best_prev)[https://github.com/jeniyat/cse_5521_AU20/blob/master/programming_homeworks/HW_3_programming/HMM/hmm.py#L101] variable and check it is assigned with the the highest probability ones.
 
 
 # What to submit:
