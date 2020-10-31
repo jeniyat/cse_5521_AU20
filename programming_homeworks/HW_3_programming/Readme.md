@@ -5,11 +5,11 @@
 * Due date and time: November 16 (Monday), 11:59 pm ET
 
 * Carmen submission: 
-Submit a .zip file named `name.number.zip` (e.g., `chao.209.zip`) with the following files
-  - your completed python script `NaiveBayes.py` (for NaiveBayes - Question 1) [ Bounus: Your report on impact of alpha with optimal alpha as `report.txt`]
+Submit a .zip file named `name.number.zip` (e.g., `chao.209.zip`), which contains the following files
+  - your completed python script `NaiveBayes.py` (for NaiveBayes - Question 1) [Bounus: Your report on impact of alpha with optimal alpha as `report.txt`]
   - your completed python script `hmm.py` (for Hidden Markov Model - Question 2)
  
-* Collaboration: You may discuss the homework with your classmates. However, you need to write your own solutions and submit them separately. In your submission, you need to list with whom you have discussed the homework. Please list each classmate’s name and name.number (e.g., Wei-Lun Chao, chao.209) as a row at the end of `LR.py` and `DR.py`. That is, if you discussed with two classmates, your .txt file will have two rows. Please consult the syllabus for what is and is not acceptable collaboration.
+* Collaboration: You may discuss the homework with your classmates. However, you need to write your own solutions and submit them separately. In your submission, you need to list with whom you have discussed the homework. Please list each classmate's name and name.number (e.g., Wei-Lun Chao, chao.209) as a row at the end of `NaiveBayes.py` and `hmm.py`. Please consult the syllabus for what is and is not acceptable collaboration.
 
 ## Implementation instructions
 
@@ -17,10 +17,9 @@ Submit a .zip file named `name.number.zip` (e.g., `chao.209.zip`) with the follo
 
 * You will see two directories: `NaiveBayes` , `HMM`
 
-* You will see a [`data-sentiment`](`NaiveBayes/data-sentiment/`) folder inside the  [`NaiveBayes/`](./NaiveBayes/) directory, which contains train data (`train/Positive.txt`, `train/Neutral.txt`, `train/Negative.txt`) and the test data (`test/Positive.txt`, `test/Neutral.txt`, `test/Negative.txt`)for  Question 1.
+* You will see a [`data-sentiment`](`NaiveBayes/data-sentiment/`) folder inside the  [`NaiveBayes/`](./NaiveBayes/) directory, which contains train data (`train/Positive.txt`, `train/Neutral.txt`, `train/Negative.txt`) and the test data (`test/Positive.txt`, `test/Neutral.txt`, `test/Negative.txt`) for  Question 1.
 
 * You will see a [`data-pos`](`./HMM/data-pos/`) folder inside the [`HMM`](./HMM/) directory, which contains train data (`train.txt`,  `train_words.txt`) and the test data (`test.txt`,  `test_words.txt`) for  Question 2.
-
 
 * Please use python3 and write your own solutions from scratch. 
 
