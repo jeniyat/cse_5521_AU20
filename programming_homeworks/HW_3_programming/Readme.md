@@ -17,9 +17,9 @@ Submit a .zip file named `name.number.zip` (e.g., `chao.209.zip`) with the follo
 
 * You will see two directories: `NaiveBayes` , `HMM`
 
-* You will see a `data-sentiment` folder inside the `NaiveBayes` directory, which contains train data (`train/Positive.txt`, `train/Neutral.txt`, `train/Negative.txt`) and the test data (`test/Positive.txt`, `test/Neutral.txt`, `test/Negative.txt`)for  Question 1
+* You will see a (`data-sentiment`)[`NaiveBayes/data-sentiment/`] folder inside the  (`NaiveBayes/`)[(./NaiveBayes/)] directory, which contains train data (`train/Positive.txt`, `train/Neutral.txt`, `train/Negative.txt`) and the test data (`test/Positive.txt`, `test/Neutral.txt`, `test/Negative.txt`)for  Question 1.
 
-* You will see a `data-pos` folder inside the `HMM` directory, which contains train data (`train.txt`,  `train_words.txt`) and the test data (`test.txt`,  `test_words.txt`) for  Question 2
+* You will see a (`data-pos`)[`./HMM/data-pos/`] folder inside the (`HMM`)[./HMM/] directory, which contains train data (`train.txt`,  `train_words.txt`) and the test data (`test.txt`,  `test_words.txt`) for  Question 2.
 
 
 * Please use python3 and write your own solutions from scratch. 
@@ -45,22 +45,25 @@ In this homework, you are to implement NaiveBayes and HMM algorithm for tweet cl
 
 # Question 1: NaiveBayes Classification (50 pts)
 
-* You will implement NaiveBayes in this question. You are to amend your implementation into `NaiveBayes.py`.
+* You will implement NaiveBayes in this question. You are to amend your implementation into (`NaiveBayes.py`)[(./NaiveBayes/NaiveBayes.py)].
 
-* There are many sub-functions in `NaiveBayes.py`. You can ignore all of them but `def train(self, training_set, training_labels, alpha=1)` and `def predict(self, test_doc)`. You need to extract the correspondig log probablities to complete this implementaion.
+* There are many sub-functions in  (`NaiveBayes.py`)[(./NaiveBayes/NaiveBayes.py)]. You can ignore all of them but [`def train(self, training_set, training_labels, alpha=1)`](https://github.com/jeniyat/cse_5521_AU20/blob/master/programming_homeworks/HW_3_programming/NaiveBayes/NaiveBayes.py#L104) and (`def predict(self, test_doc)`)[https://github.com/jeniyat/cse_5521_AU20/blob/master/programming_homeworks/HW_3_programming/NaiveBayes/NaiveBayes.py#L128]. You need to extract the correspondig log probablities to complete this implementaion.
+
+* Debugging Tips: print the variable (sums)[https://github.com/jeniyat/cse_5521_AU20/blob/master/programming_homeworks/HW_3_programming/NaiveBayes/NaiveBayes.py#L129] and check it is returning the expected values.
   
 
 ## Auto grader:
 
 * You may run the following command to test your implementation<br/>
 `python3 NaiveBayes.py`<br/>
-Note that, the auto grader is to check your implementation semantics. If you have syntax errors, you may get python error messages before you can see the auto_graders' results.
+
+* Note that, the auto grader is to check your implementation semantics. If you have syntax errors, you may get python error messages before you can see the auto_graders' results.
 
 * Again, the auto_grader is just to simply check your implementation. It may not be used for your final grading.
 
 ## Bonus: (10 pts)
 
-Improve the results on test set with different alpha value in `def train(self, training_set, training_labels, alpha=1)` and report the best alpha.
+Improve the results on test set with different alpha value in [`def train(self, training_set, training_labels, alpha=1)`](https://github.com/jeniyat/cse_5521_AU20/blob/master/programming_homeworks/HW_3_programming/NaiveBayes/NaiveBayes.py#L104) and report the best alpha at `report.txt`.
 
 
 
