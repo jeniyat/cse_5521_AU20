@@ -75,7 +75,7 @@ The directory structure of the [data](./NaiveBayes/data-sentiment/) folder is gi
 
 * Debugging Tips: print the variable [`sums`](./NaiveBayes/NaiveBayes.py#L136) and check if it is returning the expected values.
 
-* Helpful Resource: [HW_3_How_To](HW_3_How_To.pptx)
+* Helpful Resource: [HW_3_How_To.pptx](./HW_3_How_To.pptx)
   
 
 ## Auto grader:
