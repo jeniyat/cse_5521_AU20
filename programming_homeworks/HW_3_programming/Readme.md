@@ -49,7 +49,7 @@ In this homework, you are to implement NaiveBayes and HMM algorithm for tweet cl
 
 * There are many sub-functions in  [`NaiveBayes.py`](./NaiveBayes/NaiveBayes.py). You can ignore all of them but [`def train(self, training_set, training_labels, alpha=1)`](https://github.com/jeniyat/cse_5521_AU20/blob/master/programming_homeworks/HW_3_programming/NaiveBayes/NaiveBayes.py#L104) and [`def predict(self, test_doc)`](https://github.com/jeniyat/cse_5521_AU20/blob/master/programming_homeworks/HW_3_programming/NaiveBayes/NaiveBayes.py#L128). You need to extract the correspondig log probablities to complete this implementaion.
 
-* Debugging Tips: print the variable [sums](https://github.com/jeniyat/cse_5521_AU20/blob/master/programming_homeworks/HW_3_programming/NaiveBayes/NaiveBayes.py#L129) and check if it is returning the expected values.
+* Debugging Tips: print the variable [`sums`](https://github.com/jeniyat/cse_5521_AU20/blob/master/programming_homeworks/HW_3_programming/NaiveBayes/NaiveBayes.py#L129) and check if it is returning the expected values.
   
 
 ## Auto grader:
