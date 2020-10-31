@@ -8,7 +8,7 @@
 Submit a .zip file named `name.number.zip` (e.g., `chao.209.zip`), which contains the following files
   - your completed python script `NaiveBayes.py` 
  
-* Collaboration: You may discuss the homework with your classmates. However, you need to write your own solutions and submit them separately. In your submission, you need to list with whom you have discussed the homework. Please list each classmate's name and name.number (e.g., Wei-Lun Chao, chao.209) as a row at the end of `NaiveBayes.py` and `hmm.py`. Please consult the syllabus for what is and is not acceptable collaboration.
+* Collaboration: You may discuss the homework with your classmates. However, you need to write your own solutions and submit them separately. In your submission, you need to list with whom you have discussed the homework. Please list each classmate's name and name.number (e.g., Wei-Lun Chao, chao.209) as a row at the end of `NaiveBayes.py`. Please consult the syllabus for what is and is not acceptable collaboration.
 
 ## Implementation instructions
 
@@ -75,7 +75,7 @@ The directory structure of the [data](./NaiveBayes/data-sentiment/) folder is gi
 	* [`train(self, training_sentences, training_labels):`](./NaiveBayes/NaiveBayes.py#L95)
 		* You need to find the log probabiltiy each label and save them in `self.logprior`, so that `self.logprior[-1]` will store the value of the log probablity of Negative Sentitment.
 		* You need to find the log probabiltiy of a word being in a class `c` and save them in `self.loglikelihoods`, so that `self.loglikelihoods[-1]["bad"]` will store the value of the log probablity of seeing the word "bad" in sentence with Negative Sentitment.
-		
+
 	* [`predict(self, test_sentence)`](./NaiveBayes/NaiveBayes.py#L121). 
 		* You have the find the log probality for each label for the given `test_sentence` and store them in the `label_probability` variable. Remember we have 3 labels in this dataset: Positive(+1), Negative(-1), Neutral (0).
 
