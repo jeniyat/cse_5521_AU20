@@ -92,7 +92,7 @@ class NaiveBayesClassifier(object):
 
         return counts
 
-    def train(self, training_sentences, training_labels, alpha=1):
+    def train(self, training_sentences, training_labels):
         # Get number of sentences in the training set
         N_sentences = len(training_sentences)
 
