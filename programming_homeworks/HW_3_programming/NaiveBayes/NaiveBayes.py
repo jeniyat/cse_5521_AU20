@@ -122,6 +122,7 @@ class NaiveBayesClassifier(object):
         sums = {
             0: 0,
             1: 0,
+            -1:0
         }
         words = test_sentence.split(" ")
 

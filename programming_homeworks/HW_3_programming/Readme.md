@@ -71,7 +71,9 @@ The directory structure of the [data](./NaiveBayes/data-sentiment/) folder is gi
 
 * You will implement NaiveBayes in this question. You are to amend your implementation into [`NaiveBayes.py`](./NaiveBayes/NaiveBayes.py).
 
-* There are many sub-functions in  [`NaiveBayes.py`](./NaiveBayes/NaiveBayes.py). You can ignore all of them but [`train(self, training_sentences, training_labels):`](./NaiveBayes/NaiveBayes.py#L95) and [`predict(self, test_sentence)`](./NaiveBayes/NaiveBayes.py#L121). You need to extract the correspondig log probablities to complete this implementaion.
+* There are many sub-functions in  [`NaiveBayes.py`](./NaiveBayes/NaiveBayes.py). You can ignore all of them except the following two:
+	* [`train(self, training_sentences, training_labels):`](./NaiveBayes/NaiveBayes.py#L95)  
+	* [`predict(self, test_sentence)`](./NaiveBayes/NaiveBayes.py#L121). You have the find the log probality for each class for the given `test_sentence`. 
 
 * Debugging Tips: print the variable [`sums`](./NaiveBayes/NaiveBayes.py#L136) and check if it is returning the expected values.
 
