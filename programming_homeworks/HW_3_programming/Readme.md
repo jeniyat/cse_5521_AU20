@@ -42,7 +42,7 @@ In this homework, you are to implement NaiveBayes and Hidden Markov Model (HMM) 
 
 # Question 1: NaiveBayes Classification (50 pts)
 
-* You will implement NaiveBayes in this question. You are to amend your implementation into (`NaiveBayes.py`)[(./NaiveBayes/NaiveBayes.py)].
+* You will implement NaiveBayes in this question. You are to amend your implementation into [`NaiveBayes.py`](./NaiveBayes/NaiveBayes.py).
 
 * There are many sub-functions in  [`NaiveBayes.py`](./NaiveBayes/NaiveBayes.py). You can ignore all of them but [`def train(self, training_set, training_labels, alpha=1)`](./NaiveBayes/NaiveBayes.py#L104) and [`def predict(self, test_doc)`](./NaiveBayes/NaiveBayes.py#L128). You need to extract the correspondig log probablities to complete this implementaion.
 
