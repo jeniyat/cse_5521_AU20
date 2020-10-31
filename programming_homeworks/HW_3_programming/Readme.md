@@ -72,8 +72,12 @@ The directory structure of the [data](./NaiveBayes/data-sentiment/) folder is gi
 * You will implement NaiveBayes in this question. You are to amend your implementation into [`NaiveBayes.py`](./NaiveBayes/NaiveBayes.py).
 
 * There are many sub-functions in  [`NaiveBayes.py`](./NaiveBayes/NaiveBayes.py). You can ignore all of them except the following two:
-	* [`train(self, training_sentences, training_labels):`](./NaiveBayes/NaiveBayes.py#L95)  
-	* [`predict(self, test_sentence)`](./NaiveBayes/NaiveBayes.py#L121). You have the find the log probality for each class for the given `test_sentence`. 
+	* [`train(self, training_sentences, training_labels):`](./NaiveBayes/NaiveBayes.py#L95)
+		* You need to find the log probabiltiy each label and save them in `self.logprior`, so that `self.logprior[-1]` will store the value of the log probablity of Negative Sentitment.
+		* You need to find the log probabiltiy of a word being in a class `c` and save them in `self.loglikelihoods`, so that `self.loglikelihoods[-1]["bad"]` will store the value of the log probablity of seeing the word "bad" in sentence with Negative Sentitment.
+		
+	* [`predict(self, test_sentence)`](./NaiveBayes/NaiveBayes.py#L121). 
+		* You have the find the log probality for each label for the given `test_sentence` and store them in the `label_probability` variable. Remember we have 3 labels in this dataset: Positive(+1), Negative(-1), Neutral (0).
 
 * Debugging Tips: print the variable [`sums`](./NaiveBayes/NaiveBayes.py#L136) and check if it is returning the expected values.
 

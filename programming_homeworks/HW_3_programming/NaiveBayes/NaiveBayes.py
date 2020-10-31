@@ -119,7 +119,7 @@ class NaiveBayesClassifier(object):
         
 
     def predict(self, test_sentence):
-        sums = {
+        label_probability = {
             0: 0,
             1: 0,
             -1:0,
@@ -134,7 +134,7 @@ class NaiveBayesClassifier(object):
         # return a dictionary of log probablity for each class for a given test sentence: 
         # i,e, {0: -39.39854137691295, 1: -41.07638511893377, -1: -42.93948478571315}
 
-        return sums
+        return label_probability
 
 
 if __name__ == '__main__':
