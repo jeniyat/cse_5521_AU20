@@ -17,7 +17,7 @@ Submit a .zip file named `name.number.zip` (e.g., `chao.209.zip`) with the follo
 
 * You will see two directories: `NaiveBayes` , `HMM`
 
-* You will see a (`data-sentiment`)[`NaiveBayes/data-sentiment/`] folder inside the  (`NaiveBayes/`)[(./NaiveBayes/)] directory, which contains train data (`train/Positive.txt`, `train/Neutral.txt`, `train/Negative.txt`) and the test data (`test/Positive.txt`, `test/Neutral.txt`, `test/Negative.txt`)for  Question 1.
+* You will see a (`data-sentiment`)[`NaiveBayes/data-sentiment/`] folder inside the  (`NaiveBayes/`)[./NaiveBayes/] directory, which contains train data (`train/Positive.txt`, `train/Neutral.txt`, `train/Negative.txt`) and the test data (`test/Positive.txt`, `test/Neutral.txt`, `test/Negative.txt`)for  Question 1.
 
 * You will see a (`data-pos`)[`./HMM/data-pos/`] folder inside the (`HMM`)[./HMM/] directory, which contains train data (`train.txt`,  `train_words.txt`) and the test data (`test.txt`,  `test_words.txt`) for  Question 2.
 
