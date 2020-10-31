@@ -33,13 +33,11 @@ Submit a .zip file named `name.number.zip` (e.g., `chao.209.zip`), which contain
 
 # Introduction
 
-In this homework, you are to implement NaiveBayes and HMM algorithm for tweet classifications
+In this homework, you are to implement NaiveBayes and Hidden Markov Model (HMM) algorithm for tweet classifications.
 
 * In Question 1, you will play with the Twitter Senitment Analysis data, where each tweet is tagged as with either Positive, Negative, or Neutral sentiment.
 
-
 * In Question 2, you will play with Twitter pos data data, where each word in the tweet is tagged corresponding part-of-speech tag.
-
 
 
 # Question 1: NaiveBayes Classification (50 pts)
