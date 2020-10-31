@@ -40,14 +40,14 @@ The directory structure of the [data](./NaiveBayes/data-sentiment/) folder is gi
 
 ```
 ./NaiveBayes/data-sentiment/
-				├── train
-				│   ├── Negative.txt
-				│   ├── Neutral.txt
-				│   └── Positive.txt
-				└── test
-				    ├── Negative.txt
-				    ├── Neutral.txt
-				    └── Positive.txt
+		├── train
+		│   ├── Negative.txt
+		│   ├── Neutral.txt
+		│   └── Positive.txt
+		└── test
+		    ├── Negative.txt
+		    ├── Neutral.txt
+		    └── Positive.txt
 ```
 
 # NaiveBayes Classification (50 pts)
