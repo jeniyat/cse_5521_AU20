@@ -36,6 +36,20 @@ In this homework, you are to implement NaiveBayes algorithm for tweet classifica
 
 # Data Description
 
+The directory structure of the [data](./NaiveBayes/data-sentiment/) folder is given below:
+
+```
+./NaiveBayes/data-sentiment/
+				├── train
+				│   ├── Negative.txt
+				│   ├── Neutral.txt
+				│   └── Positive.txt
+				└── test
+				    ├── Negative.txt
+				    ├── Neutral.txt
+				    └── Positive.txt
+```
+
 # NaiveBayes Classification (50 pts)
 
 * You will implement NaiveBayes in this question. You are to amend your implementation into [`NaiveBayes.py`](./NaiveBayes/NaiveBayes.py).
