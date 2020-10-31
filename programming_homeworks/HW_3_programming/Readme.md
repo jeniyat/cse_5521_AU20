@@ -47,7 +47,7 @@ In this homework, you are to implement NaiveBayes and HMM algorithm for tweet cl
 
 * You will implement NaiveBayes in this question. You are to amend your implementation into (`NaiveBayes.py`)[(./NaiveBayes/NaiveBayes.py)].
 
-* There are many sub-functions in  [`NaiveBayes.py`](./NaiveBayes/NaiveBayes.py). You can ignore all of them but [`def train(self, training_set, training_labels, alpha=1)`](https://github.com/jeniyat/cse_5521_AU20/blob/master/programming_homeworks/HW_3_programming/NaiveBayes/NaiveBayes.py#L104) and (`def predict(self, test_doc)`)[https://github.com/jeniyat/cse_5521_AU20/blob/master/programming_homeworks/HW_3_programming/NaiveBayes/NaiveBayes.py#L128]. You need to extract the correspondig log probablities to complete this implementaion.
+* There are many sub-functions in  [`NaiveBayes.py`](./NaiveBayes/NaiveBayes.py). You can ignore all of them but [`def train(self, training_set, training_labels, alpha=1)`](https://github.com/jeniyat/cse_5521_AU20/blob/master/programming_homeworks/HW_3_programming/NaiveBayes/NaiveBayes.py#L104) and [`def predict(self, test_doc)`](https://github.com/jeniyat/cse_5521_AU20/blob/master/programming_homeworks/HW_3_programming/NaiveBayes/NaiveBayes.py#L128). You need to extract the correspondig log probablities to complete this implementaion.
 
 * Debugging Tips: print the variable (sums)[https://github.com/jeniyat/cse_5521_AU20/blob/master/programming_homeworks/HW_3_programming/NaiveBayes/NaiveBayes.py#L129] and check it is returning the expected values.
   
