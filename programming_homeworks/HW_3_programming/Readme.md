@@ -71,7 +71,7 @@ Improve the results on test set with different alpha value in [`def train(self, 
 
  You will implement hidden markov model in this question. You are to amend your implementation into `hmm.py`.
 
-* There are many classe and sub-functions in [`hmm.py`](./HMM/hmm.py). You can ignore all of them but `def get_transition(self, prevNodes, curNodes)`. You need to extract the correspondig transition and emmision probablities to complete this implementaion.
+* There are many classe and sub-functions in [`hmm.py`](./HMM/hmm.py). You can ignore all of them but [`def get_transition(self, prevNodes, curNodes)`](https://github.com/jeniyat/cse_5521_AU20/blob/master/programming_homeworks/HW_3_programming/HMM/hmm.py#L81). You need to extract the correspondig transition and emmision probablities to complete this implementaion.
   
 
 ## Auto grader:
