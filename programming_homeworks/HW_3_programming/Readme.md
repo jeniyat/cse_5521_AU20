@@ -74,6 +74,8 @@ The directory structure of the [data](./NaiveBayes/data-sentiment/) folder is gi
 * There are many sub-functions in  [`NaiveBayes.py`](./NaiveBayes/NaiveBayes.py). You can ignore all of them but [`train(self, training_sentences, training_labels, alpha=1):`](./NaiveBayes/NaiveBayes.py#L95) and [`predict(self, test_sentence)`](./NaiveBayes/NaiveBayes.py#L121). You need to extract the correspondig log probablities to complete this implementaion.
 
 * Debugging Tips: print the variable [`sums`](./NaiveBayes/NaiveBayes.py#L136) and check if it is returning the expected values.
+
+* Helpful Resource: [HW_3_How_To](HW_3_How_To.pptx)
   
 
 ## Auto grader:
