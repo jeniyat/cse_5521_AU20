@@ -74,11 +74,14 @@ The directory structure of the [data](./NaiveBayes/data-sentiment/) folder is gi
 * There are many sub-functions in  [`NaiveBayes.py`](./NaiveBayes/NaiveBayes.py). You can ignore all of them except the following two:
 	* [`def train(self, training_sentences, training_labels):`](./NaiveBayes/NaiveBayes.py#L95)
 		* You need to find the log probabiltiy each label and save them in `self.logprior`, so that `self.logprior[-1]` will store the value of the log probablity of Negative Sentitment.
+
 		* You need to find the log probabiltiy of a word being in a class `c` and save them in `self.loglikelihoods`, so that `self.loglikelihoods[-1]["bad"]` will store the value of the log probablity of seeing the word "bad" in sentence with Negative Sentitment.
-		* Debugging Tips: print the variable [`self.logprior`] and check if it is storing the the expected log probablity values for that class.
+
+		* Debugging Tips: print the variable `self.logprior` and check if it is storing the the expected log probablity values for that class.
 
 	* [`def predict(self, test_sentence):`](./NaiveBayes/NaiveBayes.py#L121). 
 		* You have the find the log probality for each label for the given `test_sentence` and store them in the `label_probability` variable. Remember we have 3 labels in this dataset: Positive(+1), Negative(-1), Neutral (0).
+		
 		* Debugging Tips: print the variable [`label_probability`](./NaiveBayes/NaiveBayes.py#L137) and check if it is returning the expected values.
 
 * Helpful Resource: [HW_3_How_To.pptx](./HW_3_How_To.pptx)
