@@ -48,3 +48,9 @@ Modify the given Logistic Regression code and convert it to Perceptron learning.
 
 
 
+#Submission
+
+Submit two file to Carmen: linear_brain.py and your report on parameter tuning.
+Due: Friday, December 4, 11:59pm
+
+
