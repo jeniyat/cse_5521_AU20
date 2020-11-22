@@ -1,7 +1,10 @@
-In this assignment you will train linear models using stochastic gradient descent to predict whether a human subject is viewing a picture or reading a sentence from their fMRI brain image data.
+# Homework-4
 
 
-NOTE: It may take some time to run the experiments for this assign- ment, so we recommend that you start early. 
+In this assignment you will train logistic regression models using stochastic gradient descent to predict whether a human subject is viewing a picture or reading a sentence from their fMRI brain image data.
+
+
+NOTE: It may take some time to run the experiments for this assignment, so we recommend that you start early. 
 
 # Data
 
