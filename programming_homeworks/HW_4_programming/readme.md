@@ -12,7 +12,7 @@ The data comes from the [starplus dataset](http://www.cs.cmu.edu/afs/cs.cmu.edu/
 
 We provide starter code to read the provided matlab file into Python/Numpy arrays. 
 
-The data for each trial consists of a sequence of brain images that we have flattened into a feature vector X. Your task is to train a linear classifier that outputs, y. The values of y are: {+1,-1}, which correspond to whether the subject was first shown a picture or a sentence during the trial. More details on the dataset are included in the comments of the starter code.
+The data for each trial consists of a sequence of brain images that we have flattened into a feature vector X. Your task is to train a classifier that outputs, y. The values of y are: {+1,-1}, which correspond to whether the subject was first shown a picture or a sentence during the trial. More details on the dataset are included in the comments of the starter code.
 
 # Logistic Regression (10 points)
 
