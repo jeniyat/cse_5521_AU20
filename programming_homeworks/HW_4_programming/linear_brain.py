@@ -144,8 +144,8 @@ def main():
     Y_train = Y[:40]
     Y_test = Y[40:]
 
-    print("number of data instances: ", X.shape)
-    print("number of data instances: ", Y.shape)
+    # print("number of data instances: ", X.shape)
+    # print("number of data instances: ", Y.shape)
 
 
     #Cross validation
